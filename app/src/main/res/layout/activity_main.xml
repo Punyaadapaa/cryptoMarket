@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crypto Market"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#212529"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout android:id="@+id/btnBtc" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/btc" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Bitcoin (BTC)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnEth" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/eth" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Ethereum (ETH)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnBnb" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/bnb" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Binance (BNB)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnSol" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/sol" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Solana (SOL)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnXrp" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/xrp" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Ripple (XRP)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnUsdt" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/usdt" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Tether (USDT)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnUsdc" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/usdc" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="USD Coin (USDC)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnPaxg" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="8dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/paxg" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="PAX Gold (PAXG)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/btnXaut" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="#FFFFFF" android:orientation="horizontal" android:padding="12dp" android:layout_marginBottom="24dp" android:gravity="center_vertical" android:elevation="2dp">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/xaut" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:text="Tether Gold (XAUT)" android:textSize="18sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnHarga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cek Harga Market Live" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kirim Feedback (Email)" />
+
+    </LinearLayout>
+</ScrollView>
