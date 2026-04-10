@@ -1,4 +1,4 @@
-package com.example.ppab_3 // Sesuaikan dengan nama package-mu!
+package com.example.ppab_3
 
 import android.content.Intent
 import android.net.Uri
