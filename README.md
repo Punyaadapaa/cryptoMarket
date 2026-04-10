@@ -15,7 +15,7 @@ SecondActivity berfungsi sebagai halaman detail yang menerima data dari MainActi
 Clone repositori ini:
 
 ```
-git clone https://github.com/username/crypto-market-app.git
+[git clone https://github.com/username/crypto-market-app.git](https://github.com/Punyaadapaa/cryptoMarket.git)
 ```
 Buka proyek di Android Studio.
 
