@@ -9,6 +9,7 @@ MainActivity berfungsi sebagai halaman utama yang menampilkan daftar seluruh koi
 SecondActivity berfungsi sebagai halaman detail yang menerima data dari MainActivity melalui intent.getStringExtra dan intent.getIntExtra. Data tersebut kemudian ditampilkan ke masing-masing komponen View seperti ImageView untuk ikon koin, dan beberapa TextView untuk informasi teks seperti nama, ticker, pendiri, tahun rilis, serta deskripsi lengkap koin.
 
 📸 Cuplikan
+
 <img width="386" height="749" alt="Screenshot 2026-04-10 080859" src="https://github.com/user-attachments/assets/90224426-c565-4eb8-9987-74f28fc7dbcf" />
 
 📝 Instalasi
