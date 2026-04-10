@@ -51,6 +51,6 @@ Ikuti langkah-langkah berikut untuk menjalankan *project* ini di komputermu:
    
 ## 👥 Kelompok 2
 Anggota tim yang berkontribusi dalam pengembangan aplikasi ini:
-1. **Daffa Arkhan Aditama** (L0324010)
-2. **Muhammad Ihsaan Al Fikri** (L0324024)
-3. **Rizal Arief Zuhdi** (L0324031)
+1. [**Daffa Arkhan Aditama**](https://github.com/Punyaadapaa) (L0324010)
+2. [**Muhammad Ihsaan Al Fikri**](https://github.com/Ihsaanalf) (L0324024)
+3. [**Rizal Arief Zuhdi**](https://github.com/rxl2-wqwq) (L0324031)
