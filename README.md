@@ -48,3 +48,9 @@ Ikuti langkah-langkah berikut untuk menjalankan *project* ini di komputermu:
 1. **Clone repositori ini** melalui terminal atau Git Bash:
    ```bash
    git clone [https://github.com/Punyaadapaa/cryptoMarket.git](https://github.com/Punyaadapaa/cryptoMarket.git)
+   
+## 👥 Kelompok 2
+Anggota tim yang berkontribusi dalam pengembangan aplikasi ini:
+1. **Daffa Arkhan Aditama** (L0324010)
+2. **Muhammad Ihsaan Al Fikri** (L0324024)
+3. **Rizal Arief Zuhdi** (L0324031)
